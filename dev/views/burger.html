@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Burger Animation</title>
+	<link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+	
+	<div class="window">
+		<div class="brgr-container">
+			<div class="line firstline"></div>
+			<div class="line midline"></div>
+			<div class="line lastline"></div>
+		</div>
+	</div>
+
+</body>
+
+<script>
+
+	var burger = document.querySelector('.brgr-container');
+
+	burger.onclick = function() {
+		burger.classList.toggle('burger-opened');
+	}
+
+</script>
+
+</html>
